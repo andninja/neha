@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ImageGallery from "react-image-gallery";
 
 // import portfolio from '../../public/images/portfolio.pdf';
 
