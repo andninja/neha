@@ -1,41 +1,48 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+import useWindowSize from 'react-use/lib/useWindowSize'
 import Typewriter from 'typewriter-effect';
+import Confetti from 'react-confetti'
 
-export default class Header extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
-    return (
-      <React.Fragment>
-      
+const Header = () => {
+
+  const [showParty, setShowParty] = useState(false)
+  const { width, height } = useWindowSize()
+
+
+  return (
+    <React.Fragment>
+
       <header id="home">
-         <nav id="nav-wrap">
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-            <ul id="nav" className="nav">
-               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-               <li><a className="smoothscroll" href="#about">About</a></li>
-             <li><a className="smoothscroll" href="#resume">Resume</a></li>
-               <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-               <li><a className="smoothscroll" href="#contact">Contact</a></li>
-            </ul>
-         </nav>
 
-         <div className="row banner">
-            <div className="banner-text">
-               <h1 className="responsive-headline">I am 
-               <Typewriter
-  options={{
-    strings: ['Sakshi Mittal'],
-    autoStart: true,
-    loop: true,
-  }}
-/>
-               </h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}. {resumeData.roleDescription}
-               </h3>
-               {/* <hr/> */}
-               {/* <ul className="social">
+        <div className="row banner">
+          <div className="banner-text">
+            <h1 className="responsive-headline">Hi
+              <Typewriter
+                options={{
+                  strings: ['Neha Mangla'],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h1>
+            <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>This valentine I wanted to give you something interesting and unvaluable but then I realized you already have me in your life
+            </h3>
+
+            <h3 style={{ marginTop: "50px", color: "antiquewhite" }}>
+              You are the best thing happened to me this year, I can feel my heartbeat when I am with you.
+              I am more than excited to spend the next adventure together called life with you.
+              If you accept my proposal, click on the button below
+            </h3>
+
+            <button style={{ marginTop: "50px", background: "#AA336A" }} onClick={() => setShowParty(true)}> Yes I am all yours</button>
+
+
+            {showParty && <Confetti
+              width={width}
+              height={height}
+            />}
+            {/* <hr/> */}
+            {/* <ul className="social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
@@ -47,15 +54,14 @@ export default class Header extends Component {
                     )
                   }
                </ul> */}
-            </div>
-         </div>
+          </div>
+        </div>
 
-         <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-         </p>
 
       </header>
-      </React.Fragment>
-    );
-  }
+    </React.Fragment>
+  );
 }
+
+
+export default Header
