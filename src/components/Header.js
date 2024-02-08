@@ -25,7 +25,7 @@ const Header = () => {
                 }}
               />
             </h1>
-            <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>This valentine I wanted to give you something interesting and unvaluable but then I realized you already have me in your life
+            <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>This valentine I wanted to give you something interesting and valuable but then I realized you already have me in your life
             </h3>
 
             <h3 style={{ marginTop: "50px", color: "antiquewhite" }}>
