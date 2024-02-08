@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/neha/precache-manifest.05951647b94076e1e59b230c7f9bcccb.js"
+  "/neha/precache-manifest.390b5f76c80935c83e4b4e54e7f3d96b.js"
 );
 
 workbox.clientsClaim();
