@@ -1,13 +1,13 @@
 {
-  "main.css": "/sakshi/static/css/main.ff41cdb1.chunk.css",
-  "main.js": "/sakshi/static/js/main.dc1b4654.chunk.js",
-  "main.js.map": "/sakshi/static/js/main.dc1b4654.chunk.js.map",
-  "static/js/1.5a63f945.chunk.js": "/sakshi/static/js/1.5a63f945.chunk.js",
-  "static/js/1.5a63f945.chunk.js.map": "/sakshi/static/js/1.5a63f945.chunk.js.map",
-  "runtime~main.js": "/sakshi/static/js/runtime~main.5fbca541.js",
-  "runtime~main.js.map": "/sakshi/static/js/runtime~main.5fbca541.js.map",
-  "static/css/main.ff41cdb1.chunk.css.map": "/sakshi/static/css/main.ff41cdb1.chunk.css.map",
-  "index.html": "/sakshi/index.html",
-  "precache-manifest.e3acb308b5a3eb5288cdd3c19e953f4d.js": "/sakshi/precache-manifest.e3acb308b5a3eb5288cdd3c19e953f4d.js",
-  "service-worker.js": "/sakshi/service-worker.js"
+  "main.css": "/neha/static/css/main.d0549970.chunk.css",
+  "main.js": "/neha/static/js/main.f2d56055.chunk.js",
+  "main.js.map": "/neha/static/js/main.f2d56055.chunk.js.map",
+  "static/js/1.0069ec68.chunk.js": "/neha/static/js/1.0069ec68.chunk.js",
+  "static/js/1.0069ec68.chunk.js.map": "/neha/static/js/1.0069ec68.chunk.js.map",
+  "runtime~main.js": "/neha/static/js/runtime~main.a2944a78.js",
+  "runtime~main.js.map": "/neha/static/js/runtime~main.a2944a78.js.map",
+  "static/css/main.d0549970.chunk.css.map": "/neha/static/css/main.d0549970.chunk.css.map",
+  "index.html": "/neha/index.html",
+  "precache-manifest.05951647b94076e1e59b230c7f9bcccb.js": "/neha/precache-manifest.05951647b94076e1e59b230c7f9bcccb.js",
+  "service-worker.js": "/neha/service-worker.js"
 }
